@@ -1,0 +1,1 @@
+python esptool.py --chip esp32 --port COM3 -b 115200 write_flash --flash_mode "dio" --flash_freq "40m" --flash_size=detect 0x1000 C:\Users\Dylan\Downloads\bootloader.bin 0x8000 C:\Users\Dylan\Downloads\partitions_espruino.bin 0x10000 C:\Users\Dylan\Downloads\espruino_1v94.51_esp32.bin
